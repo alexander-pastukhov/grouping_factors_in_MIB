@@ -1,5 +1,5 @@
 # Data and the analysis code for the "No Interaction of Grouping Factors in Motion-Induced Blindness" paper
----
+
 ## Raw data
 ### Experiment 1. "_Grouping via the Kanizsa figure and the common mask_"
 The raw data files are located in the [__Kanitza - Raw Data__](Kanitza - Raw Data) folder. The files for the main experiment and for the preliminary fingers-press asynchrony measurement are, correspondingly, in [__Main Experiment__](Kanitza - Raw Data/Main Experiment) and [__Real Disappearances__](Kanitza - Raw Data/Real Disappearances) subfolders. Please use scripts `MatlabToCSV_MainExperiment.m` and `MatlabToCSV_RealDisappearances.m` to convert from Matlab scripts to the CSV tables.
@@ -9,8 +9,6 @@ The raw data files are located in the [__Connecting lines - Raw Data__](Connecti
 
 ### Experiment 3. "__Visibility of the illusory Kaniza triangle__"
 The raw data files are located in the [__Kanitza - Raw Data/Static Control__](Kanitza - Raw Data/Static Control) folder. Please use `MatlabToCSV_KanitzaStaticControl.m` script to convert from Matlab scripts to the CSV table.
-
----
 
 ## Statistical analysis and figures
 ### Experiment 1. "_Grouping via the Kanizsa figure and the common mask_"
