@@ -22,3 +22,6 @@ The raw data files are located in the [__Kanitza - Raw Data/Static Control__](Ka
 ### Experiment 3. "__Visibility of the illusory Kaniza triangle__"
 * Disappearance time analysis, Fig. 4AB: [Experiment 3. Kanitza control - Disappearance time](Experiment 3. Kanitza control - Disappearance time.ipynb)
 * Kanitza visibility analysis, Fig. 4CD: [Experiment 3. Kanitza control - Kanitza visibility](Experiment 3. Kanitza control - Kanitza visibility.ipynb)
+
+## License: [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
