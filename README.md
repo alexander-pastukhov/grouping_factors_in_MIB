@@ -1,6 +1,7 @@
-# Data and the analysis code for the "No Interaction of Grouping Factors in Motion-Induced Blindness" paper
+# The Lack of Interaction between Extrinsic Grouping Factors in Motion-Induced Blindness
+Data and the analysis code for the  manuscript "The Lack of Interaction between Extrinsic Grouping Factors in Motion-Induced Blindness" manuscript, submitted to Plos One
 
-## Raw data
+## Data
 ### Experiment 1. "_Grouping via the Kanizsa figure and the common mask_"
 The raw data files are located in the [__Kanitza - Raw Data__](Kanitza - Raw Data) folder. The files for the main experiment and for the preliminary fingers-press asynchrony measurement are, correspondingly, in [__Main Experiment__](Kanitza - Raw Data/Main Experiment) and [__Real Disappearances__](Kanitza - Raw Data/Real Disappearances) subfolders. Please use scripts `MatlabToCSV_MainExperiment.m` and `MatlabToCSV_RealDisappearances.m` to convert from Matlab scripts to the CSV tables.
 
@@ -23,5 +24,6 @@ The raw data files are located in the [__Kanitza - Raw Data/Static Control__](Ka
 * Disappearance time analysis, Fig. 4AB: [Experiment 3. Kanitza control - Disappearance time](Experiment 3. Kanitza control - Disappearance time.ipynb)
 * Kanitza visibility analysis, Fig. 4CD: [Experiment 3. Kanitza control - Kanitza visibility](Experiment 3. Kanitza control - Kanitza visibility.ipynb)
 
-## License: [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+## License
+All data (and associated content) is licensed under the [CC-By Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). All code is licensed
+under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
