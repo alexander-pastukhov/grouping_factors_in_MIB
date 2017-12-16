@@ -2,14 +2,14 @@
 clear all;
 
 %% settings
-data_folder= 'Experiment 1';
+data_folder= 'Experiment 2. Illusory Triangle and Common Region';
 file_mask= '^s\d\d\.m$';
 
 %% getting the list of files from the static control data folder
 ObserversList= dir([data_folder '/s*.m']);
 
 %% exporting
-fCSV= fopen([data_folder '/Experiment1_Main.csv'], 'w');
+fCSV= fopen([data_folder '/Experiment2_Main.csv'], 'w');
 fprintf(fCSV, 'ID;Block;Duration;Aligned;MasksN;Target;Event;Time\n');
 
 current_folder= cd()

@@ -2,7 +2,7 @@
 clear all;
 
 %% settings
-data_folder= 'Experiment 1';
+data_folder= 'Experiment 2. Illusory Triangle and Common Region';
 file_mask= '^s\d\d\_FOA.m$';
    
 %% locating the root folder (somewhat convoluted, but this way we don't need to care about forward vs. back slashes
@@ -12,9 +12,9 @@ current_folder= pwd();
 ObserversList= dir([data_folder '/s*_FOA.m']);
 
 %% exporting
-fResponse= fopen([data_folder '/Experiment1_FOA_Response.csv'], 'w');
+fResponse= fopen([data_folder '/Experiment2_FOA_Response.csv'], 'w');
 fprintf(fResponse, 'ID;Block;Duration;Aligned;Target;Event;Time\n');
-fDisplay= fopen([data_folder '/Experiment1_FOA_DisplayState.csv'], 'w');
+fDisplay= fopen([data_folder '/Experiment2_FOA_DisplayState.csv'], 'w');
 fprintf(fDisplay, 'ID;Block;Duration;Aligned;Target1;Target2;Target3;ChangeTime\n');
 
 cd(data_folder);
