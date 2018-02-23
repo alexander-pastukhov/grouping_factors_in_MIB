@@ -1,5 +1,8 @@
 # Extrinsic Grouping Factors in Motion-Induced Blindness
-Data and the analysis code for the  manuscript "Extrinsic Grouping Factors in Motion-Induced Blindness" manuscript, submitted to Plos One
+Data and the analysis code for the  manuscript.
+
+## Manuscript
+Dina Devyatko and Alexander Pastukhov (2018). Extrinsic grouping factors in motion-induced blindness. _PLOS ONE_, 13(1), e0192133. doi:[10.1371/journal.pone.0192133](https://doi.org/10.1371/journal.pone.0192133).
 
 ## Data
 
